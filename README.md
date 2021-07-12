@@ -8,7 +8,8 @@ Jupyter notebooks are great for showcasing your work. You can see both the code 
 
 Maria is doing the City School System Analysis with students **Standardized Math and Reading Test scores, Budget** for each school under the district. This Analysis will help the School Board to decide on the Budget and Priorities. Maria is interested to find the below details out of the City School Analysis.
 
-  •	The district summary
+
+  *	The district summary
   *	The school summary 
   *	Top and bottom 5 performing schools, based on the overall passing rate
   *	Average math score for each grade level from each school
@@ -24,6 +25,7 @@ Also, she wants to know what happens to all the above analysis results if readin
 ## Analysis 
 
 Before we start doing our Analysis, we need to setup the depencies Panda and Numpy libraries in our code to work with Data and Calculations.To load the file we are going work with, we can use the path and .read function of Panda. After that cleaning up the data is very important to start the Analysis.
+
 
 * Replacing Math & Reading Scores with NaN
 
@@ -59,7 +61,7 @@ Below is the full Pandas code to determine the City School Analysis.
 
 ![PyCitySchools_Challenge](https://github.com/saranyadurairaju/Module4-Final-Assignment-Analysis/blob/main/PyCitySchools_Challenge.ipynb)
 
-Herewith we are comparing the Original value with the New value which we got with the 10th, 11th, & 12th students count of Thomas High School
+Herewith we are comparing the Original value with the New value which we got with the 10th, 11th, & 12th students count of Thomas High School. **And No change in any schools value after the score change.** 
  
 #### The District Summary
 
@@ -90,7 +92,7 @@ There is no much difference in the school performance after the change as the da
 
 #### High and Low Performing Schools
 
-No change in any schools after the value change. And Thomas High School managed to attain the same 2nd position after the change too.
+Thomas High School managed to attain the same 2nd position after the change too.
 
 ![image](https://user-images.githubusercontent.com/85472349/125234310-12099b00-e2a6-11eb-93d6-dcec142530fd.png)
 
