@@ -29,11 +29,11 @@ Before we start doing our Analysis, we need to setup the depencies Panda and Num
 
 As there are some academic dishonesty found with 9th graders of Thomas High School, we need to replace the Math and Reading scores with NaN 
 
-![PyCitySchools_THS_Replace](.png)
+![PyCitySchools_THS_Replace](https://github.com/saranyadurairaju/Module4-Final-Assignment-Analysis/blob/main/PyCitySchools_THS_Replace.png)
 
 * Merge the two datasets School Data and Student Data to view all the informations together and for easy calculations. So, we have to calculate the District Summary with the new student count as we replaced the 9th graders scores of Thomas High School with NaN. Below is the step to calculate the new student count.
 
-![PyCitySchools_New_Student_Count](.png)
+![PyCitySchools_New_Student_Count](https://github.com/saranyadurairaju/Module4-Final-Assignment-Analysis/blob/main/PyCitySchools_New_Student_Count.png)
 
 * After finding the New student count, we have to find "The District Summary" to see the impact after changing the Math, Reading scores of Thomas High School
 
@@ -57,7 +57,7 @@ Corrected values with the updated number of students (10th, 11th, 12th)
 
 Below is the full Pandas code to determine the City School Analysis. 
 
-![PyCitySchools_Challenge](.ipynb)
+![PyCitySchools_Challenge](https://github.com/saranyadurairaju/Module4-Final-Assignment-Analysis/blob/main/PyCitySchools_Challenge.ipynb)
 
 Herewith we are comparing the Original value with the New value which we got with the 10th, 11th, & 12th students count of Thomas High School
  
